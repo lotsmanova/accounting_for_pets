@@ -12,3 +12,6 @@ DB_PASS = os.environ.get("POSTGRES_PASSWORD")
 
 # setting for test db
 DB_NAME_TEST = os.environ.get("DB_NAME_TEST")
+
+# setting for auth
+API_KEY = os.environ.get("API_KEY")
