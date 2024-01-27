@@ -6,6 +6,8 @@ from src.pets.crud import pet_crud
 
 
 async def export_pets(has_photos: bool = None, skip=0, limit=20):
+    """Кастомная команда для выгрузки списка питомцев"""
+
     async for session in get_async_session():
         db = session
 
