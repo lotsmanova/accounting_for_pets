@@ -1,4 +1,3 @@
-import base64
 import uuid
 from datetime import datetime
 from sqlalchemy import ForeignKey, LargeBinary
