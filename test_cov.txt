@@ -1,0 +1,19 @@
+Name                                           Stmts   Miss  Cover
+------------------------------------------------------------------
+/etc/python3.10/sitecustomize.py                   5      1    80%
+migrations/env.py                                 34      5    85%
+migrations/versions/2024-01-26_add_models.py      13      0   100%
+src/__init__.py                                    0      0   100%
+src/auth/auth.py                                   8      1    88%
+src/config.py                                     10      0   100%
+src/database.py                                   15      0   100%
+src/main.py                                        4      0   100%
+src/pets/crud.py                                  62     38    39%
+src/pets/models.py                                20      0   100%
+src/pets/routers.py                               26      6    77%
+src/pets/schemas.py                               27      1    96%
+tests/__init__.py                                  0      0   100%
+tests/conftest.py                                 15      3    80%
+tests/test_pets.py                                13      0   100%
+------------------------------------------------------------------
+TOTAL                                            252     55    78%
