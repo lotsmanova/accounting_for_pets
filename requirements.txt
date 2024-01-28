@@ -53,3 +53,4 @@ watchfiles
 websockets
 requests
 pytest-cov
+gunicorn
